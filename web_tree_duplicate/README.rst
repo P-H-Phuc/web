@@ -17,13 +17,13 @@ Tree View Duplicate Records
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fweb-lightgray.png?logo=github
-    :target: https://github.com/OCA/web/tree/16.0/web_tree_duplicate
+    :target: https://github.com/OCA/web/tree/17.0/web_tree_duplicate
     :alt: OCA/web
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/web-16-0/web-16-0-web_tree_duplicate
+    :target: https://translation.odoo-community.org/projects/web-17-0/web-17-0-web_tree_duplicate
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/web&target_branch=16.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/web&target_branch=17.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
@@ -38,39 +38,43 @@ With this module you can duplicate records directly from the tree view.
 Configuration
 =============
 
-The duplicate option is enabled by default.
-To disable it you have to add attribute `duplicate` to the tree view.
-Set `duplicate` to `true` to enable it or `false` to (explicitly) disable it.
+The duplicate option is enabled by default. To disable it you have to
+add attribute duplicate to the tree view. Set duplicate to true to
+enable it or false to (explicitly) disable it.
 
 Example:
 
-.. code-block:: xml
+.. code:: xml
 
-    <?xml version="1.0" encoding="UTF-8" ?>
-    <odoo>
-        <record id="view_users_tree" model="ir.ui.view">
-            <field name="model">res.users</field>
-            <field name="inherit_id" ref="base.view_users_tree"/>
-            <field name="arch" type="xml">
-                <xpath expr="//tree" position="attributes">
-                    <attribute name="duplicate">false</attribute>
-                </xpath>
-            </field>
-        </record>
-    </odoo>
+   <?xml version="1.0" encoding="UTF-8" ?>
+   <odoo>
+       <record id="view_users_tree" model="ir.ui.view">
+           <field name="model">res.users</field>
+           <field name="inherit_id" ref="base.view_users_tree"/>
+           <field name="arch" type="xml">
+               <xpath expr="//tree" position="attributes">
+                   <attribute name="duplicate">false</attribute>
+               </xpath>
+           </field>
+       </record>
+   </odoo>
 
 Usage
 =====
 
 To use this module, you need to:
 
-#. Go to any tree view
-#. select some records
-#. open the sidebar menu and click 'Duplicate'
+1. Go to any tree view
+2. select some records
+3. open the sidebar menu and click 'Duplicate'
 
-Note that even when selecting all records via the top checkbox on a list, this will only duplicate the currently visible items. If you really need to duplicate all records, you need to adjust the list view limit accordingly.
+Note that even when selecting all records via the top checkbox on a
+list, this will only duplicate the currently visible items. If you
+really need to duplicate all records, you need to adjust the list view
+limit accordingly.
 
 .. image:: https://raw.githubusercontent.com/web_tree_duplicate/static/description/screenshot-duplicate.png
+   :alt: image
 
 Bug Tracker
 ===========
@@ -78,7 +82,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/web/issues/new?body=module:%20web_tree_duplicate%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/web/issues/new?body=module:%20web_tree_duplicate%0Aversion:%2017.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -86,19 +90,20 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * Hunki Enterprises BV
 * Onestein
 
 Contributors
-~~~~~~~~~~~~
+------------
 
-* Dennis Sluijk <d.sluijk@onestein.nl>
-* Holger Brunn <mail@hunki-enterprises.com> (https://hunki-enterprises.com)
+-  Dennis Sluijk <d.sluijk@onestein.nl>
+-  Holger Brunn <mail@hunki-enterprises.com>
+   (https://hunki-enterprises.com)
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
 This module is maintained by the OCA.
 
@@ -118,6 +123,6 @@ Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
 |maintainer-tarteo| 
 
-This module is part of the `OCA/web <https://github.com/OCA/web/tree/16.0/web_tree_duplicate>`_ project on GitHub.
+This module is part of the `OCA/web <https://github.com/OCA/web/tree/17.0/web_tree_duplicate>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
