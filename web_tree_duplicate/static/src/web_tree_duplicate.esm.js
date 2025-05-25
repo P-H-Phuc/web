@@ -4,9 +4,10 @@
 
 import {Domain} from "@web/core/domain";
 import {ListController} from "@web/views/list/list_controller";
+import {_t} from "@web/core/l10n/translation";
 import {patch} from "@web/core/utils/patch";
 
-patch(ListController.prototype, "add duplicate action", {
+patch(ListController.prototype, {
     getActionMenuItems() {
         const result = this._super();
         if (
@@ -15,7 +16,7 @@ patch(ListController.prototype, "add duplicate action", {
         ) {
             result.other.push({
                 key: "duplicate",
-                description: this.env._t("Duplicate"),
+                description: _t("Duplicate"),
                 callback: () => this.duplicateRecords(),
             });
         }
@@ -31,7 +32,7 @@ patch(ListController.prototype, "add duplicate action", {
         );
         this.env.searchModel.createNewFilters([
             {
-                description: this.env._t("Duplicated Records"),
+                description: _t("Duplicated Records"),
                 domain: new Domain([["id", "in", ids]]).toString(),
                 type: "filter",
             },

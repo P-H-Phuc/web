@@ -73,7 +73,7 @@ list, this will only duplicate the currently visible items. If you
 really need to duplicate all records, you need to adjust the list view
 limit accordingly.
 
-.. image:: https://raw.githubusercontent.com/web_tree_duplicate/static/description/screenshot-duplicate.png
+.. image:: https://raw.githubusercontent.com/OCA/web/17.0/web_tree_duplicate/static/description/screenshot-duplicate.png
    :alt: image
 
 Bug Tracker

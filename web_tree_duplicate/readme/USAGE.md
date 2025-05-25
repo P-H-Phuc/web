@@ -9,4 +9,4 @@ list, this will only duplicate the currently visible items. If you
 really need to duplicate all records, you need to adjust the list view
 limit accordingly.
 
-![image](/web_tree_duplicate/static/description/screenshot-duplicate.png)
+![image](../static/description/screenshot-duplicate.png)
