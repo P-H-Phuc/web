@@ -13,9 +13,9 @@ Dynamic Dropdown Widget
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
-    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
-    :alt: License: AGPL-3
+.. |badge2| image:: https://img.shields.io/badge/licence-LGPL--3-blue.png
+    :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
+    :alt: License: LGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fweb-lightgray.png?logo=github
     :target: https://github.com/OCA/web/tree/17.0/web_widget_dropdown_dynamic
     :alt: OCA/web
@@ -30,9 +30,9 @@ Dynamic Dropdown Widget
 
 Dynamic dropdown widget that supports resolving options from backend of:
 
-   -  ``fields.Char``
-   -  ``fields.Integer``
-   -  ``fields.Selection``
+   - ``fields.Char``
+   - ``fields.Integer``
+   - ``fields.Selection``
 
 **NOTE:** This widget is not intended to *extend* ``fields.Selection``,
 but to filter selection values. For fully-dynamic set of options, use
@@ -99,23 +99,23 @@ Authors
 Contributors
 ------------
 
--  `CorporateHub <https://corporatehub.eu/>`__
+- `CorporateHub <https://corporatehub.eu/>`__
 
-   -  Alexey Pelykh <alexey.pelykh@corphub.eu>
+  - Alexey Pelykh <alexey.pelykh@corphub.eu>
 
--  `Therp BV <https://therp.nl/>`__
+- `Therp BV <https://therp.nl/>`__
 
-   -  Ronald Portier <ronald@therp.nl>
+  - Ronald Portier <ronald@therp.nl>
 
--  Thanakrit Pintana <thanakrit.p39@gmail.com>
+- Thanakrit Pintana <thanakrit.p39@gmail.com>
 
--  `Trobz <https://trobz.com>`__:
+- `Trobz <https://trobz.com>`__:
 
-      -  Son Ho <sonho@trobz.com>
+     - Son Ho <sonho@trobz.com>
 
--  `Tecnativa <https://www.tecnativa.com>`__:
+- `Tecnativa <https://www.tecnativa.com>`__:
 
-   -  Carlos Roca
+  - Carlos Roca
 
 Other credits
 -------------
