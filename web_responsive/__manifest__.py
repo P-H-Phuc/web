@@ -39,6 +39,7 @@
             "/web_responsive/static/src/components/hotkey/hotkey.xml",
             "/web_responsive/static/src/components/chatter_topbar/chatter_topbar.esm.js",
             "/web_responsive/static/src/components/chatter_topbar/chatter_topbar.xml",
+            "/web_responsive/static/src/components/chatter_topbar/chatter_topbar.scss",
             "/web_responsive/static/src/components/attachment_viewer/attachment_viewer.scss",
             "/web_responsive/static/src/components/attachment_viewer/attachment_viewer.esm.js",
             "/web_responsive/static/src/components/attachment_viewer/attachment_viewer.xml",
