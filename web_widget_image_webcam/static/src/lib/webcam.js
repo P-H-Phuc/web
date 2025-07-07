@@ -89,8 +89,8 @@ var Webcam = {
 				}
 		} : null);
 		
-		window.URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
-		this.userMedia = this.userMedia && !!this.mediaDevices && !!window.URL;
+		var URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
+		this.userMedia = this.userMedia && !!this.mediaDevices && !!URL;
 		
 		// Older versions of firefox (< 21) apparently claim support but user media does not actually work
 		if (navigator.userAgent.match(/Firefox\D+(\d+)/)) {
@@ -313,14 +313,14 @@ var Webcam = {
 					self.dispatch('live');
 					self.flip();
 				};
-				// as window.URL.createObjectURL() is deprecated, adding a check so that it works in Safari.
+				// as URL.createObjectURL() is deprecated, adding a check so that it works in Safari.
 				// older browsers may not have srcObject
 				if ("srcObject" in video) {
 				  	video.srcObject = stream;
 				}
 				else {
 				  	// using URL.createObjectURL() as fallback for old browsers
-				  	video.src = window.URL.createObjectURL(stream);
+				  	video.src = URL.createObjectURL(stream);
 				}
 			})
 			.catch( function(err) {
