@@ -84,6 +84,13 @@ Authors
 
 * Phan Hong Phuc
 
+Contributors
+------------
+
+- `Trobz <https://trobz.com>`__
+
+  - Phan Hong Phuc phucph@trobz.com
+
 Maintainers
 -----------
 
