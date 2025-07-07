@@ -1,0 +1,1 @@
+This module provides a preview of PDF documents in Odoo.
