@@ -2,4 +2,5 @@
 beautifulsoup4
 bokeh==3.1.1
 mpld3==0.5.9
+msoffice2pdf
 plotly==5.13.1
