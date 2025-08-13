@@ -11,7 +11,7 @@
     "Kaushal Prajapati, "
     "Odoo Community Association (OCA)",
     "license": "LGPL-3",
-    "depends": ["web"],
+    "depends": ["web", "base"],
     "assets": {
         "web.assets_backend": [
             "web_widget_image_webcam/static/src/js/webcam_widget.esm.js",
