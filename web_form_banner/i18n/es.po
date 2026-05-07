@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-05-07 18:02+0000\n"
+"PO-Revision-Date: 2026-05-07 20:45+0000\n"
 "Last-Translator: Ed-Spain <eduamoros@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -57,11 +57,14 @@ msgid ""
 "                                    (one2many/reference, etc)."
 msgstr ""
 "<code>draft</code>: Los valores persistidos de los campos del registro ORM "
-"(antes de aplicar los cambios no guardados del formulario actual) + los "
-"cambios no guardados actuales en los campos desencadenadores. Debe usarse en "
-"lugar de <code>record</code> cuando su regla se activa dinámicamente por una "
+"(antes de aplicar los\n"
+"cambios no guardados del formulario actual) + los cambios no guardados "
+"actuales en los campos desencadenadores.\n"
+"Debe usarse en lugar de <code>record</code> cuando su regla se activa "
+"dinámicamente por una\n"
 "actualización de un campo desencadenador. No incluye valores de campos "
-"complejos (one2many/referencia, etc)."
+"complejos\n"
+"(one2many/referencia, etc)."
 
 #. module: web_form_banner
 #: model_terms:ir.ui.view,arch_db:web_form_banner.view_web_form_banner_rule_form
@@ -99,7 +102,8 @@ msgid ""
 "                                    is creating a new record."
 msgstr ""
 "<code>record_id</code>: ID entero del registro que se está editando, o <code>"
-"False</code> si el formulario está creando un nuevo registro."
+"False</code> si el formulario\n"
+"está creando un nuevo registro."
 
 #. module: web_form_banner
 #: model_terms:ir.ui.view,arch_db:web_form_banner.view_web_form_banner_rule_form
@@ -319,8 +323,8 @@ msgid ""
 msgstr ""
 "Expresión Python evaluada en el servidor. Debe devolver un dict.\n"
 "Claves: visible(bool, por defecto True), severity(str), values(dict para $"
-"{...} en mensaje), y/o html(str) para reemplazar el renderizado de la "
-"plantilla."
+"{...} en\n"
+"mensaje), y/o html(str) para reemplazar el renderizado de la plantilla."
 
 #. module: web_form_banner
 #: model_terms:ir.ui.view,arch_db:web_form_banner.view_web_form_banner_rule_form
