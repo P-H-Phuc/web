@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-06-06 11:44+0000\n"
+"PO-Revision-Date: 2026-06-06 11:46+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
@@ -145,42 +145,42 @@ msgstr "Tip iskanja"
 #. module: web_responsive
 #: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
 msgid "Search Type Help"
-msgstr ""
+msgstr "Pomoč pri tipu iskanja"
 
 #. module: web_responsive
 #. odoo-javascript
 #: code:addons/web_responsive/static/src/components/menu_canonical_searchbar/searchbar.xml:0
 #: code:addons/web_responsive/static/src/components/menu_odoo_searchbar/searchbar.xml:0
 msgid "Search menus..."
-msgstr ""
+msgstr "Iskanje menijev..."
 
 #. module: web_responsive
 #. odoo-javascript
 #: code:addons/web_responsive/static/src/components/chatter/chatter.xml:0
 msgid "Send message"
-msgstr ""
+msgstr "Pošlji sporočilo"
 
 #. module: web_responsive
 #: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #. module: web_responsive
 #: model:ir.model,name:web_responsive.model_res_users
 msgid "User"
-msgstr ""
+msgstr "Uporabnik"
 
 #. module: web_responsive
 #: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
 msgid "a new search algorithm is used"
-msgstr ""
+msgstr "uporablja se nov iskalni algoritem"
 
 #. module: web_responsive
 #: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
 msgid "the standard odoo search tool"
-msgstr ""
+msgstr "standardno Odoo iskalno orodje"
 
 #. module: web_responsive
 #: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
 msgid "uses a standard algorithm"
-msgstr ""
+msgstr "uporablja standardni algoritem"
