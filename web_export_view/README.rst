@@ -50,8 +50,7 @@ Configuration
 =============
 
 If we wanted to disallow users to use the features provided by this
-module, we can add them to the group *Disallow Export View Data to
-Excel*.
+module, we can add them to the group *Access to export feature*.
 
 Usage
 =====
@@ -94,6 +93,7 @@ Authors
 
 * Henry Zhou
 * Agile Business Group
+* Trobz
 
 Contributors
 ------------
@@ -112,6 +112,10 @@ Contributors
 
   - David Vidal
   - Ernesto Tejeda
+
+- `Trobz <https://www.trobz.com>`__:
+
+  - Phan Hong Phuc <phucph@trobz.com>
 
 Maintainers
 -----------

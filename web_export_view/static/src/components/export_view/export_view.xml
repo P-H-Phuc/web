@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t
+        t-name="web_export_view.ListView"
+        t-inherit="web.ListView"
+        t-inherit-mode="extension"
+    >
+        <xpath
+            expr="//t[@t-set-slot='control-panel-selection-actions']//t[@t-if='props.info.actionMenus']"
+            position="after"
+        >
+            <button
+                t-if="_canExportCurrentView"
+                type="button"
+                class="btn btn-secondary o_export_current_view_btn"
+                t-on-click="onDirectExportData"
+            >
+                <i class="fa fa-file-excel-o me-1" />
+                Export Current View
+            </button>
+        </xpath>
+    </t>
+
+</templates>
