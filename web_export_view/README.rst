@@ -17,25 +17,26 @@ Web Export Current View
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fweb-lightgray.png?logo=github
-    :target: https://github.com/OCA/web/tree/12.0/web_export_view
+    :target: https://github.com/OCA/web/tree/18.0/web_export_view
     :alt: OCA/web
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/web-12-0/web-12-0-web_export_view
+    :target: https://translation.odoo-community.org/projects/web-18-0/web-18-0-web_export_view
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/web&target_branch=12.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/web&target_branch=18.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-One of the best Odoo's features is exporting custom data to CSV/XLS. You can
-do it by clicking on the export link in the sidebar. The export action allows
-us to configure what to be exported by selecting fields, etc, and allows you
-to save your export as a template so that you can export it once again without
-having to configure it again.
+One of the best Odoo's features is exporting custom data to CSV/XLS. You
+can do it by clicking on the export link in the sidebar. The export
+action allows us to configure what to be exported by selecting fields,
+etc, and allows you to save your export as a template so that you can
+export it once again without having to configure it again.
 
-That feature is as great and advanced as limited for an everyday experience.
-A lot of customers want simply to export the tree view they are looking to.
+That feature is as great and advanced as limited for an everyday
+experience. A lot of customers want simply to export the tree view they
+are looking to.
 
 If you miss this feature as us, probably you'll find an answer into our
 web_export_view module.
@@ -48,28 +49,32 @@ web_export_view module.
 Configuration
 =============
 
-If we wanted to disallow users to use the features provided by this module, we
-can add them to the group *Disallow Export View Data to Excel*.
+If we wanted to disallow users to use the features provided by this
+module, we can add them to the group *Disallow Export View Data to
+Excel*.
 
 Usage
 =====
 
-After you installed it, you'll find an additional link 'Export current view'
-right on the sidebar. By clicking on it you'll get a XLS file contains
-the same data of the tree view you are looking at, headers included.
+After you installed it, you'll find an additional link 'Export current
+view' right on the sidebar. By clicking on it you'll get a XLS file
+contains the same data of the tree view you are looking at, headers
+included.
 
 Known issues / Roadmap
 ======================
 
-Pedro M. Baeza (pedro.baeza@tecnativa.com):
-When you have groups, they are not exported to Excel. It would be desirable to have this option.
-One of the problems with this module is that you can't export data from a view with mode="tree".
-Changing the approach to have the button always visible (we should relocate it also to another place,
-as the current location is not visible for these views), and digging correctly in the DOM elements
-for this view (very similar to the normal tree view one) will do the trick. This will also help users
-to locate the feature, as it's hidden now by default and users don't think about selecting records.
-The behavior will be: nothing selected > you export all (including groups).
-Something or all selected: export the selection.
+Pedro M. Baeza (pedro.baeza@tecnativa.com): When you have groups, they
+are not exported to Excel. It would be desirable to have this option.
+One of the problems with this module is that you can't export data from
+a view with mode="tree". Changing the approach to have the button always
+visible (we should relocate it also to another place, as the current
+location is not visible for these views), and digging correctly in the
+DOM elements for this view (very similar to the normal tree view one)
+will do the trick. This will also help users to locate the feature, as
+it's hidden now by default and users don't think about selecting
+records. The behavior will be: nothing selected > you export all
+(including groups). Something or all selected: export the selection.
 
 Bug Tracker
 ===========
@@ -77,7 +82,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/web/issues/new?body=module:%20web_export_view%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/web/issues/new?body=module:%20web_export_view%0Aversion:%2018.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -85,30 +90,31 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * Henry Zhou
 * Agile Business Group
 
 Contributors
-~~~~~~~~~~~~
+------------
 
-* Henry Zhou (MAXodoo) <zhouhenry@live.com>
-* Rodney <https://github.com/rv-clearcorp>
-* Simone Orsi <simahawk@gmail.com>
-* Lorenzo Battistini <lorenzo.battistini@agilebg.com>
-* Stefan Rijnhart <stefan@therp.nl>
-* Leonardo Pistone <leonardo.pistone@camptocamp.com>
-* Jose Maria Bernet <josemaria.bernet@guadaltech.es>
-* Alexandre Díaz <dev@redneboa.es>
-* Valtteri Lattu <valtteri.lattu@tawasta.fi>
-* `Tecnativa <https://www.tecnativa.com>`_:
+- Henry Zhou (MAXodoo) <zhouhenry@live.com>
+- Rodney
+  <`https://github.com/rv-clearcorp\\> <https://github.com/rv-clearcorp\>>`__
+- Simone Orsi <simahawk@gmail.com>
+- Lorenzo Battistini <lorenzo.battistini@agilebg.com>
+- Stefan Rijnhart <stefan@therp.nl>
+- Leonardo Pistone <leonardo.pistone@camptocamp.com>
+- Jose Maria Bernet <josemaria.bernet@guadaltech.es>
+- Alexandre Díaz <dev@redneboa.es>
+- Valtteri Lattu <valtteri.lattu@tawasta.fi>
+- `Tecnativa <https://www.tecnativa.com>`__:
 
-  * David Vidal
-  * Ernesto Tejeda
+  - David Vidal
+  - Ernesto Tejeda
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
 This module is maintained by the OCA.
 
@@ -120,6 +126,6 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-This module is part of the `OCA/web <https://github.com/OCA/web/tree/12.0/web_export_view>`_ project on GitHub.
+This module is part of the `OCA/web <https://github.com/OCA/web/tree/18.0/web_export_view>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
